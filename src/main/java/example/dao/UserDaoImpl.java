@@ -11,9 +11,6 @@ import java.util.List;
 public class UserDaoImpl implements UserDao {
 
     @PersistenceContext
-    private EntityManager em;
-
-    @PersistenceContext
     private EntityManager entityManager;
 
     @SuppressWarnings("unchecked")
